@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B68CFF"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        app:srcCompat="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="425dp"
+        android:layout_height="253dp"
+        app:srcCompat="@drawable/skull" />
+
+    <Button
+        android:id="@+id/ticTacToeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Tic-Tac-Toe"
+        android:background="#FF0000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/guessTheWordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guess the Word"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+
+
+
+
+</LinearLayout>
